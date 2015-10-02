@@ -117,26 +117,607 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mlcGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="addMagazine.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="addMagazine.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="addMagazine.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="addMagazine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 113</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="addMagazine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 23</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>284, 261</value>
+  <data name="addMagazine.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>MainWindow</value>
+  <data name="addMagazine.Text" xml:space="preserve">
+    <value>Add Magazine</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>MainWindow</value>
+  <data name="&gt;&gt;addMagazine.Name" xml:space="preserve">
+    <value>addMagazine</value>
+  </data>
+  <data name="&gt;&gt;addMagazine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;addMagazine.Parent" xml:space="preserve">
+    <value>mlcGroupBox</value>
+  </data>
+  <data name="&gt;&gt;addMagazine.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="magazinesList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="magazinesList.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="magazinesList.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="magazinesList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 142</value>
+  </data>
+  <data name="magazinesList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 23</value>
+  </data>
+  <data name="magazinesList.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="magazinesList.Text" xml:space="preserve">
+    <value>List of Magazines</value>
+  </data>
+  <data name="&gt;&gt;magazinesList.Name" xml:space="preserve">
+    <value>magazinesList</value>
+  </data>
+  <data name="&gt;&gt;magazinesList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;magazinesList.Parent" xml:space="preserve">
+    <value>mlcGroupBox</value>
+  </data>
+  <data name="&gt;&gt;magazinesList.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="removeMagazine.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="removeMagazine.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="removeMagazine.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="removeMagazine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 171</value>
+  </data>
+  <data name="removeMagazine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 23</value>
+  </data>
+  <data name="removeMagazine.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="removeMagazine.Text" xml:space="preserve">
+    <value>Remove Magazine</value>
+  </data>
+  <data name="&gt;&gt;removeMagazine.Name" xml:space="preserve">
+    <value>removeMagazine</value>
+  </data>
+  <data name="&gt;&gt;removeMagazine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;removeMagazine.Parent" xml:space="preserve">
+    <value>mlcGroupBox</value>
+  </data>
+  <data name="&gt;&gt;removeMagazine.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="removeBook.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="removeBook.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="removeBook.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="removeBook.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 77</value>
+  </data>
+  <data name="removeBook.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 23</value>
+  </data>
+  <data name="removeBook.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="removeBook.Text" xml:space="preserve">
+    <value>Remove Book</value>
+  </data>
+  <data name="&gt;&gt;removeBook.Name" xml:space="preserve">
+    <value>removeBook</value>
+  </data>
+  <data name="&gt;&gt;removeBook.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;removeBook.Parent" xml:space="preserve">
+    <value>mlcGroupBox</value>
+  </data>
+  <data name="&gt;&gt;removeBook.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="booksList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="booksList.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="booksList.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="booksList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 48</value>
+  </data>
+  <data name="booksList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 23</value>
+  </data>
+  <data name="booksList.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="booksList.Text" xml:space="preserve">
+    <value>List of Books</value>
+  </data>
+  <data name="&gt;&gt;booksList.Name" xml:space="preserve">
+    <value>booksList</value>
+  </data>
+  <data name="&gt;&gt;booksList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;booksList.Parent" xml:space="preserve">
+    <value>mlcGroupBox</value>
+  </data>
+  <data name="&gt;&gt;booksList.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="addBook.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="addBook.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="addBook.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="addBook.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 23</value>
+  </data>
+  <data name="addBook.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="addBook.Text" xml:space="preserve">
+    <value>Add Book</value>
+  </data>
+  <data name="&gt;&gt;addBook.Name" xml:space="preserve">
+    <value>addBook</value>
+  </data>
+  <data name="&gt;&gt;addBook.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;addBook.Parent" xml:space="preserve">
+    <value>mlcGroupBox</value>
+  </data>
+  <data name="&gt;&gt;addBook.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="mlcGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 104</value>
+  </data>
+  <data name="mlcGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 200</value>
+  </data>
+  <data name="mlcGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="mlcGroupBox.Text" xml:space="preserve">
+    <value>Managing Library Collection</value>
+  </data>
+  <data name="&gt;&gt;mlcGroupBox.Name" xml:space="preserve">
+    <value>mlcGroupBox</value>
+  </data>
+  <data name="&gt;&gt;mlcGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mlcGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mlcGroupBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="mlrGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="mlrGroupBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="removeReader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="removeReader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 77</value>
+  </data>
+  <data name="removeReader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 23</value>
+  </data>
+  <data name="removeReader.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="removeReader.Text" xml:space="preserve">
+    <value>Remove Reader</value>
+  </data>
+  <data name="&gt;&gt;removeReader.Name" xml:space="preserve">
+    <value>removeReader</value>
+  </data>
+  <data name="&gt;&gt;removeReader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;removeReader.Parent" xml:space="preserve">
+    <value>mlrGroupBox</value>
+  </data>
+  <data name="&gt;&gt;removeReader.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="readersList.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="readersList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 48</value>
+  </data>
+  <data name="readersList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 23</value>
+  </data>
+  <data name="readersList.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="readersList.Text" xml:space="preserve">
+    <value>List of Readers</value>
+  </data>
+  <data name="&gt;&gt;readersList.Name" xml:space="preserve">
+    <value>readersList</value>
+  </data>
+  <data name="&gt;&gt;readersList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;readersList.Parent" xml:space="preserve">
+    <value>mlrGroupBox</value>
+  </data>
+  <data name="&gt;&gt;readersList.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="addReader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="addReader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 23</value>
+  </data>
+  <data name="addReader.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="addReader.Text" xml:space="preserve">
+    <value>Add Reader</value>
+  </data>
+  <data name="&gt;&gt;addReader.Name" xml:space="preserve">
+    <value>addReader</value>
+  </data>
+  <data name="&gt;&gt;addReader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;addReader.Parent" xml:space="preserve">
+    <value>mlrGroupBox</value>
+  </data>
+  <data name="&gt;&gt;addReader.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mlrGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 310</value>
+  </data>
+  <data name="mlrGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 119</value>
+  </data>
+  <data name="mlrGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="mlrGroupBox.Text" xml:space="preserve">
+    <value>Managing Library Readers</value>
+  </data>
+  <data name="&gt;&gt;mlrGroupBox.Name" xml:space="preserve">
+    <value>mlrGroupBox</value>
+  </data>
+  <data name="&gt;&gt;mlrGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mlrGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mlrGroupBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mbbGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="borrowedMagazinesList.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="borrowedMagazinesList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 77</value>
+  </data>
+  <data name="borrowedMagazinesList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 23</value>
+  </data>
+  <data name="borrowedMagazinesList.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="borrowedMagazinesList.Text" xml:space="preserve">
+    <value>List of Borrowed Magazines</value>
+  </data>
+  <data name="&gt;&gt;borrowedMagazinesList.Name" xml:space="preserve">
+    <value>borrowedMagazinesList</value>
+  </data>
+  <data name="&gt;&gt;borrowedMagazinesList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;borrowedMagazinesList.Parent" xml:space="preserve">
+    <value>mbbGroupBox</value>
+  </data>
+  <data name="&gt;&gt;borrowedMagazinesList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="borrowedBooksList.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="borrowedBooksList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 48</value>
+  </data>
+  <data name="borrowedBooksList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 23</value>
+  </data>
+  <data name="borrowedBooksList.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="borrowedBooksList.Text" xml:space="preserve">
+    <value>List of Borrowed Books</value>
+  </data>
+  <data name="&gt;&gt;borrowedBooksList.Name" xml:space="preserve">
+    <value>borrowedBooksList</value>
+  </data>
+  <data name="&gt;&gt;borrowedBooksList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;borrowedBooksList.Parent" xml:space="preserve">
+    <value>mbbGroupBox</value>
+  </data>
+  <data name="&gt;&gt;borrowedBooksList.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="magazinesOverdueAlarm.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="magazinesOverdueAlarm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 142</value>
+  </data>
+  <data name="magazinesOverdueAlarm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 48</value>
+  </data>
+  <data name="magazinesOverdueAlarm.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;magazinesOverdueAlarm.Name" xml:space="preserve">
+    <value>magazinesOverdueAlarm</value>
+  </data>
+  <data name="&gt;&gt;magazinesOverdueAlarm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;magazinesOverdueAlarm.Parent" xml:space="preserve">
+    <value>mbbGroupBox</value>
+  </data>
+  <data name="&gt;&gt;magazinesOverdueAlarm.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="booksOverdueAlarm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 142</value>
+  </data>
+  <data name="booksOverdueAlarm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 48</value>
+  </data>
+  <data name="booksOverdueAlarm.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;booksOverdueAlarm.Name" xml:space="preserve">
+    <value>booksOverdueAlarm</value>
+  </data>
+  <data name="&gt;&gt;booksOverdueAlarm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;booksOverdueAlarm.Parent" xml:space="preserve">
+    <value>mbbGroupBox</value>
+  </data>
+  <data name="&gt;&gt;booksOverdueAlarm.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="returnItem.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="returnItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 106</value>
+  </data>
+  <data name="returnItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 23</value>
+  </data>
+  <data name="returnItem.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="returnItem.Text" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="&gt;&gt;returnItem.Name" xml:space="preserve">
+    <value>returnItem</value>
+  </data>
+  <data name="&gt;&gt;returnItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;returnItem.Parent" xml:space="preserve">
+    <value>mbbGroupBox</value>
+  </data>
+  <data name="&gt;&gt;returnItem.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="borrowItem.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="borrowItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="borrowItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 23</value>
+  </data>
+  <data name="borrowItem.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="borrowItem.Text" xml:space="preserve">
+    <value>Borrow</value>
+  </data>
+  <data name="&gt;&gt;borrowItem.Name" xml:space="preserve">
+    <value>borrowItem</value>
+  </data>
+  <data name="&gt;&gt;borrowItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;borrowItem.Parent" xml:space="preserve">
+    <value>mbbGroupBox</value>
+  </data>
+  <data name="&gt;&gt;borrowItem.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="mbbGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 104</value>
+  </data>
+  <data name="mbbGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 200</value>
+  </data>
+  <data name="mbbGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="mbbGroupBox.Text" xml:space="preserve">
+    <value>Managing Borrowed Books</value>
+  </data>
+  <data name="&gt;&gt;mbbGroupBox.Name" xml:space="preserve">
+    <value>mbbGroupBox</value>
+  </data>
+  <data name="&gt;&gt;mbbGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mbbGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mbbGroupBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="sGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="sGroupBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="settingsCodeReader.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="settingsCodeReader.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="settingsCodeReader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="settingsCodeReader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="settingsCodeReader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 23</value>
+  </data>
+  <data name="settingsCodeReader.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="settingsCodeReader.Text" xml:space="preserve">
+    <value>Settings: Code Reader</value>
+  </data>
+  <data name="&gt;&gt;settingsCodeReader.Name" xml:space="preserve">
+    <value>settingsCodeReader</value>
+  </data>
+  <data name="&gt;&gt;settingsCodeReader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;settingsCodeReader.Parent" xml:space="preserve">
+    <value>sGroupBox</value>
+  </data>
+  <data name="&gt;&gt;settingsCodeReader.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="sGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 310</value>
+  </data>
+  <data name="sGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 119</value>
+  </data>
+  <data name="sGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="sGroupBox.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="&gt;&gt;sGroupBox.Name" xml:space="preserve">
+    <value>sGroupBox</value>
+  </data>
+  <data name="&gt;&gt;sGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;sGroupBox.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>pl-PL</value>
-  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>484, 441</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>500, 480</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>500, 480</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Light Library Manager</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainWindow</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
